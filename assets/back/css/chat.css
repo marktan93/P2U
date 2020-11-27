@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 30, 2015, 1:08:59 PM
+    Author     : Mtcy
+*/
+
+/*merchant list*/
+
+#merchant-list {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+#merchant-header {
+    background-color: #3333ff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 0px 5px 0px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#merchant-header:hover {
+    background-color: #5151fd;
+}
+
+#listwrap {
+    border-right: 1px solid #c4c4f2;
+    background-color: #fff;
+}
+
+#chatwrap {
+    max-height: 500px;
+}
+
+#listwrap .merchant-fullname {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#listwrap .merchant-fullname:hover {
+    background-color: #dedef6;
+}
+
+#merchant-select {
+    border: none;
+    border-top: 1px solid #c4c4f2;
+    padding:5px;
+}
+
+
+/*chat box*/
+.chatbox {
+    width: 350px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+
+.chat-header {
+    background-color: #5f5fb2;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.chat-header:hover {
+    background-color: #8282c4;
+    cursor: pointer;
+}
+
+.exit {
+    color: #fff;
+    font-size: 10px;
+    margin-left: 10px;
+    cursor:pointer;
+    float: right;
+    margin-top: 5px;
+}
+
+.exit:hover {
+    color: #e76687;
+}
+
+.chatboxwrap {
+    border-left: 1px solid #c4c4f2;
+    border-right: 1px solid #c4c4f2;
+    font-size: 12px;
+    padding-top: 10px;
+    background-color: #dfdfdf;
+    display: none;
+}
+
+#allwrapper {
+    height: 300px;
+    padding-bottom: 35px;
+}
+
+.content {
+    padding: 5px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.date {
+    text-align: right;
+}
+
+.right-reply {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8282c4;
+    width: 80%;
+    position: relative;
+}
+
+.right-triangle {
+    position: absolute;
+    right: -20px;
+    top: 0px;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid #8282c4;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.left-reply{
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #37a0e3;
+    width: 80%;
+    position: relative;
+}
+
+.left-triangle {
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid #37a0e3;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+}
+
+.txtboxchat {
+    padding: 10px;
+    width: 100%;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid #c4c4f2;
+    position: absolute;
+    bottom: 0px;
+}

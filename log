@@ -1,0 +1,68 @@
+Before
+1. Solved captcha plugin bug (Switch image doesn't update session)
+2. Added client-side validation
+3. Merged files with codeigniter
+4. Resolving codeigniter path (/index.php/)
+
+V2
+1. Login (session)
+2. Registration
+3. Database created, relation restricted
+4. Email activation
+5. Password reset (forgot password)
+6. watermark ic image
+7. company profile update 
+8. change password
+9. authorization (base class)
+10. Services subscription
+11. payment gateway (paypal) email: richguy@hotmail.com pass:12345abcde
+12. expiry date column added
+13. deactivate (freeze service)
+14. cronjob check consistantly each day, if 10 days before expiry then send email
+15. card design
+16. upload card info
+17. card rule + initial point
+18. add product, edit product, multiple vendors, activate, delete
+19. API done 
+20. edit card 
+21. reports subscriptions (customer to merchant) merchant view
+22. chat between admin and merchant 
+23. admin view report
+24. admin manage merchant (approve their application)
+25. http://mtcy.byethost17.com/index.php  - changed the qr code library solve the error of putting on webserver
+- update delivery and on pick status
+- add order table
+- do receipt - service and android there
+- after user placed order and paid ... generate receipt for merchant also ... to print out for customer
+- in case don't have enough stock , roll back user transaction
+- show customer details 
+- search product, link order details product to search product
+15. add in notification system chat
+
+Do later
+4. change captcha to recaptcha
+5. login failed error message + page
+6. user-profile same password validation
+7. service subscribe extends (skipped)
+10. add products validation
+13. ic no validation
+14. password validation 
+
+
+cont 
+4. test if services expired API still can access o not
+5. lock table
+
+Extra - features 
+1. disabled duplicated login (force logout, track record, extra audit table)
+
+Warning
+1. if moved to server, paypal developer's url should change
+2. constant.js
+3. remember set the cron job
+4. change email acc
+
+
+must do this 
+- verify is that vendor have stock left or what.
+- when near 0 stock then email merchant (after user purchase then check)
